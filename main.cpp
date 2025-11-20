@@ -1,23 +1,42 @@
 #include <iostream>
 using namespace std;
 
-void setToHundred(int** p){
-    **p = 100;
-}
+// void setToHundred(int** p){
+//     **p = 100;
+// }
+//
+//     void swapRef(int a, int b) {
+//     int temp = a;
+//     a = b;
+//     b = temp;
+// }
+//     void swapPtr(int* a, int* b) {
+//     int temp = *a;
+//     *a =*b;
+//     *b = temp;
+// }
+//
+//     //problem 3
+//     int countValid(int* arr, int size){
+//     int count = 0;
+//     int** ptr = arr;
+//
+//     for (int i = 0; i < size; i++, ptr++) {
+//     if (*ptr != nullptr)
+//         count++;
+// }
+//
+//     return count;
+// }
 
-    void swapRef(int a, int b) {
-    int temp = a;
-    a = b;
-    b = temp;
+    void fixNeg(int* arr, int size) {
+    int* ptr = arr;
+    for (int i = 0; i < size; i++, p++) {
+        if (*p < 0) {
+            *p = 0;
+        }
+    }
 }
-    void swapPtr(int* a, int* b) {
-    int temp = *a;
-    *a =*b;
-    *b = temp;
-}
-
-
-    int countValid(int* arr, int size);
 
 
 
@@ -39,9 +58,15 @@ int main(){
     // return 0;
 
     //problem 3
-
-
-
+    //problem 4
+    int prob4;
+    cin >> prob4;
+    int* arr[100];
+    for (int i = 0; i < prob4; i++) {
+        int a;
+        cin >> a;
+    }
+    return 0;
 
 
 
